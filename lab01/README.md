@@ -45,7 +45,7 @@
 
     timezone Asia/Krasnoyarsk
 
-Удалена строчка:
+Удалено:
     
     authconfig --enableshadow --passalgo=sha512
 
@@ -100,6 +100,7 @@
     sync
 
 Удалено:
+
     grub2-set-default 1
     echo "###   Hi from secone stage" >> /boot/grub2/grub.cfg
 
@@ -202,6 +203,7 @@
     Last login: Sun Nov  6 00:07:36 2022 from 10.0.2.2
     [vagrant@otus-c8 ~]$ uname -a
     Linux otus-c8 6.0.7 #1 SMP PREEMPT_DYNAMIC Sat Nov 5 21:41:01 +07 2022 x86_64 x86_64 x86_64 GNU/Linux
+
     [vagrant@otus-c8 ~]$ cat /etc/os-release 
     NAME="CentOS Stream"
     VERSION="8"
@@ -216,8 +218,10 @@
     BUG_REPORT_URL="https://bugzilla.redhat.com/"
     REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux 8"
     REDHAT_SUPPORT_PRODUCT_VERSION="CentOS Stream"
+
     [vagrant@otus-c8 ~]$ mount -l | grep vbox
     vagrant on /vagrant type vboxsf (rw,nodev,relatime,iocharset=utf8,uid=1000,gid=1000,_netdev)
+
     [vagrant@otus-c8 ~]$ ls /vagrant
     packer  Vagrantfile  Vagrantfile.bak
     [vagrant@otus-c8 ~]$ 
