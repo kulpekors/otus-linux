@@ -62,6 +62,7 @@
 3. Внесены изменения в scripts/stage-1-kernel-update.sh
 
 Удалено:
+
     yum install -y https://www.elrepo.org/elrepo-release-8.el8.elrepo.noarch.rpm 
     yum --enablerepo elrepo-kernel install kernel-ml -y
 
