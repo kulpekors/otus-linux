@@ -13,7 +13,7 @@
     "iso_checksum": "a96b15fdea3842de667b2472ee10842db6bd1ec9a7e76f58541b5b0d59433349"
     "iso_url": "https://mirror.yandex.ru/centos/8-stream/isos/x86_64/CentOS-Stream-8-x86_64-20221005-boot.iso"
 
-Увелилчино количество cpu до 4
+Увеличено количество cpu до 4
 
       "vboxmanage": [
         [
