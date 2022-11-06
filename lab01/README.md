@@ -1,5 +1,7 @@
 # Домашнее задание 1
 
+## Подготовка
+
 Для сборки образа с компиляцией ядра и установкой VBoxGuestAdditions для работы Shared Folders
 
 1. Внесены изменения в json-файл для packer
@@ -108,7 +110,7 @@
     echo "###   Hi from secone stage" >> /boot/grub2/grub.cfg
 
 
-Установка:
+## Создание образа и загрузка его в Vagrant Cloud
     
     packer build centos-8-custom-kernel-6.0.7.json
 
@@ -137,6 +139,7 @@
     Versions:         1.0
     Downloads:        0
 
+## Запуск VM
 
 В Vagrantfile укажем
 
