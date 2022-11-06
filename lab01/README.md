@@ -96,6 +96,8 @@
     cd /usr/src/kernels/linux-6.0.7
     make clean
 
+И в конце:
+
     dd if=/dev/zero of=/EMPTY bs=1M
     rm -f /EMPTY
     sync
